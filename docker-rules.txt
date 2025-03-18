@@ -1,0 +1,27 @@
+# Crea la rete
+sudo docker network create game
+
+# Esegui MongoDB
+sudo docker run -d \
+  --name mongodb_container \
+  --network game \
+  -e MONGO_INITDB_DATABASE=Dictionary \
+  -p 27018:27017 \
+  mongo:latest
+
+# Costruisci e esegui il backend
+sudo docker build -t backend_image ./gamelang-backend-node
+sudo docker run -d \
+  --name backend_container \
+  --network game \
+  -p 3000:3000 \
+  -e MONGODB_URI=mongodb://mongodb_container:27017/Dictionary \
+  backend_image
+
+# Costruisci e esegui il frontend
+sudo docker build -t frontend_image ./gamelang-frontend-react
+sudo docker run -d \
+  --name frontend_container \
+  --network game \
+  -p 85:80 \
+  frontend_image
