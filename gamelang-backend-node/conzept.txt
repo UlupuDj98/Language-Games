@@ -1,0 +1,14 @@
+Lo scopo e' quello di allenare le competenze linguistiche
+Far piovere parole dal cielo e con un canestro/raccoglitore permettere a chi gioca di shiftare il canestro
+
+Le parole raccolte saranno poi oggetto di traduzione dopo esser state raccolte dal partecipante
+In base alla difficolta' della parola, definita dalla sua lunghezza lo studente accumulera' punteggio e salira' nei livelli
+
+Ogni livello avra' numeri di parole diversi.
+Cosi' come la complessita' delle parole stesse
+
+Magari nei primi livelli ci saranno i nomi della frutta e i nomi dei colori per poi
+passare a livelli di complessita' maggiore con argomenti tecnici magari
+
+Utilizzero' per il backend node.js e mongodb
+per il front end useremo react.js
