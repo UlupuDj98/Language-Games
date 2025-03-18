@@ -1,0 +1,126 @@
+.main-div-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Occupa l'intera altezza del viewport */
+    background-color: rgba(15, 14, 14, 0.219);
+    flex-direction: column;
+
+
+}
+
+/* Stile per la tabella */
+table {
+    width: 1400px !important; /* Larghezza al 100% */
+    margin-top: 20px; /* Spaziatura sopra la tabella */
+    border: 1px solid blue;
+
+}
+
+table:hover{
+    width: 1550px !important;
+}
+
+/* Stile per le intestazioni della tabella */
+thead {
+    background-color: red !important; /* Colore di sfondo blu */
+    color: white; /* Colore del testo bianco */
+    font-size: 1.4em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+th, td {
+    
+    padding: 12px; /* Spaziatura interna */
+    text-align: center !important; /* Allineamento a sinistra */
+    border: 2px solid white !important; /* Bordo inferiore grigio chiaro */
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800 !important;
+    
+    
+}
+
+/* Stile per le righe della tabella */
+tbody tr:hover {
+    background-color: rgb(136, 229, 245) !important; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+tbody tr{
+    background-color: white;
+}
+
+/* Stile per i pulsanti */
+.btn {
+    padding: 8px 12px; /* Spaziatura interna */
+    border: none; /* Nessun bordo */
+    border-radius: 4px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s; /* Transizione per il colore di sfondo */
+    width: 100px;
+    margin: 6px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Colore blu */
+    color: white; /* Colore del testo bianco */
+    margin-left: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Colore blu scuro al passaggio del mouse */
+    width: 110px;
+
+    
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Colore rosso */
+    color: white; /* Colore del testo bianco */
+    margin-right: 12px;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Colore rosso scuro al passaggio del mouse */
+    width: 110px;
+
+}
+
+.btn-info {
+    background-color: black !important; /* Colore turchese */
+    color: white !important; /* Colore del testo bianco */
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Colore turchese scuro al passaggio del mouse */
+    width: 110px;
+
+}
+
+.btn-menu{
+    margin-top: 40px;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 13px;
+    border: none;
+
+
+}
+
+.btn-menu:hover{
+    color: red;
+    background-color: blue;
+    font-size: 1.3em;
+    width: 190px;
+    border: none;
+}
+

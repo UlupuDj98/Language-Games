@@ -1,0 +1,66 @@
+.card-container {
+    display: flex; /* Utilizza flexbox per disporre gli elementi in orizzontale */
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    align-items: center; /* Centra gli elementi verticalmente (opzionale) */
+    flex-wrap: wrap; /* Permette di andare a capo se non c'è spazio sufficiente */
+    gap: 20px; /* Spazio tra le schede (opzionale) */
+    padding-top: 280px; /* Aggiungi padding superiore per spostare il contenitore più in basso */
+    padding-bottom: 190px;
+}
+
+.home-div{
+    background-color: rgba(15, 14, 14, 0.219);
+    height: 100vh; /* Occupa l'intera altezza del viewport */
+    display: flex; /* Se desideri utilizzare Flexbox */
+    flex-direction: column; /* Disposizione verticale degli elementi */
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.search{
+    padding-bottom: 180px;
+    
+}
+
+
+/* Stile per la search box */
+.search-box {
+    display: flex; /* Usa flexbox per allineare input e pulsante */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 10px; /* Spaziatura sopra la search box */
+}
+
+/* Stile per l'input di ricerca */
+.search-input {
+    padding: 10px; /* Spaziatura interna */
+    border: 1px solid #ced4da; /* Bordo grigio chiaro */
+    border-radius: 5px; /* Angoli arrotondati */
+    width: 300px; /* Larghezza fissa */
+    font-size: 16px; /* Dimensione del font */
+    transition: border-color 0.3s; /* Transizione per il colore del bordo */
+}
+
+/* Stile per l'input al focus */
+.search-input:focus {
+    border-color: #007bff; /* Colore blu al focus */
+    outline: none; /* Rimuovi il contorno di default */
+}
+
+/* Stile per il pulsante di ricerca */
+.search-button {
+    padding: 10px 15px; /* Spaziatura interna */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    background-color: #007bff; /* Colore blu */
+    color: white; /* Colore del testo bianco */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    margin-left: 10px; /* Spaziatura a sinistra */
+    transition: background-color 0.3s; /* Transizione per il colore di sfondo */
+}
+
+/* Stile per il pulsante al passaggio del mouse */
+.search-button:hover {
+    background-color: #0056b3; /* Colore blu scuro al passaggio del mouse */
+}

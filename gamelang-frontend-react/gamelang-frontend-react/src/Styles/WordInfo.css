@@ -1,0 +1,87 @@
+.main-div-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Occupa l'intera altezza del viewport */
+    background-color: rgba(15, 14, 14, 0.219);
+    flex-direction: column;
+}
+
+.btn-menu{
+    margin-top: 40px;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 13px;
+    border: none;
+
+
+}
+
+.btn-menu:hover{
+    font-size: 1.3em ;
+    width: 190px;
+    border: none;
+}
+
+.card-info {
+    display: flex; /* Abilita Flexbox */
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px; /* Larghezza massima della card */
+    background-color: #f9f9f9; /* Colore di sfondo della card */
+    border-radius: 25px; /* Raggio per rendere la card rotonda */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
+    padding: 20px; /* Spaziatura interna */
+    text-align: center; /* Allinea il testo al centro */
+    margin: 0 auto; /* Centra la card orizzontalmente */
+}
+
+.card-info:hover{
+    border-radius: 6px;
+}
+
+.card-info h3 {
+    margin-top: 55px !important;
+    font-weight: 800;
+    margin: 10px 0; /* Margine per il titolo */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-info h3:hover{
+    color: blue;
+    font-size: 2.4em;
+}
+
+.card-info p {
+    margin: 5px 0; /* Margine per i paragrafi */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.card-info p:hover{
+    font-size: 1.7em;
+    color: red;
+}
+
+.card-info-attr  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: blue;
+}
+
+.card-info-attr :hover{
+    font-size: 1em;
+    color: blue;
+}
+
+.info-id{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: bold;
+    
+}

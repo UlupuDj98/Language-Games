@@ -1,0 +1,39 @@
+.card {
+    width: 20rem !important;
+    height: 20rem !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+
+.card:hover{
+    border-radius: 50%;
+    width: 22rem !important;
+    height: 22rem !important;
+    border: 5px solid blue;
+    cursor: pointer;
+
+}
+
+.card-body {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.897);
+    padding: 10px; /* Riduci il padding per rendere il card-body più basso */
+    display: flex; /* Utilizza flexbox per centrare il contenuto */
+    flex-direction: column; /* Disporre gli elementi in colonna */
+    height: 10%;
+}
+
+.card-text {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 100%; /* Fa sì che l'immagine occupi tutta la larghezza della scheda */
+    height: 250px; /* Imposta un'altezza fissa per l'immagine */
+    object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore mantenendo le proporzioni */
+    border-top-left-radius: 50px; /* Applica il raggio agli angoli superiori */
+    border-top-right-radius: 50px; /* Applica il raggio agli angoli superiori */
+}

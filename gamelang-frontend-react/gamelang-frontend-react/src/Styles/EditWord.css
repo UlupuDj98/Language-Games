@@ -1,0 +1,122 @@
+/* Stile generale per il contenitore principale */
+.main-div-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Occupa l'intera altezza del viewport */
+    background-color: rgba(15, 14, 14, 0.219);
+    flex-direction: column;
+}
+
+.formTitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    
+}
+
+
+/* Contenitore del modulo */
+.form-container {
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per profondità */
+    padding: 20px; /* Spaziatura interna */
+    width: 650px; /* Larghezza massima */
+    text-align: center;
+    background-image: url('https://images.creativefabrica.com/products/previews/2024/05/17/1LM2nNgy9/2gaT7N40TcuGifVdZaVfqqbsq1i-desktop.jpg');
+    flex-direction: row;
+
+}
+
+.form-container:hover{
+    width: 87vh;
+
+}
+
+/* Stile per le etichette del modulo */
+.form-label {
+    font-weight: bold; /* Grassetto per le etichette */
+    margin-bottom: 5px; /* Spaziatura sotto le etichette */
+    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Stile per i campi di input */
+.form-control {
+    border: 2px solid black; 
+    border-radius: 5px; /* Angoli arrotondati */
+    padding: 15px; /* Aumenta la spaziatura interna */
+    width: 100%; /* Larghezza al 100% del contenitore */
+    max-width: 600px; /* Larghezza massima se desiderato */
+    margin-bottom: 15px; /* Spaziatura sotto i campi */
+    font-size: 1.1em; /* Aumenta la dimensione del font */
+}
+
+
+/* Stile per il campo di input in caso di errore */
+.is-invalid {
+    border-color: #dc3545; /* Bordo rosso per errore */
+}
+
+/* Stile per il messaggio di errore */
+.invalid-feedback {
+    font-size: 0.875em; /* Dimensione del font per il messaggio di errore */
+    color: #dc3545; /* Colore rosso per il messaggio di errore */
+}
+
+/* Stile per il pulsante di invio */
+.add-button {
+    background-color: #007bff; /* Colore blu per il pulsante */
+    color: white; /* Colore del testo bianco */
+    border: none; /* Nessun bordo */
+    padding: 10px 20px; /* Spaziatura interna */
+    border-radius: 5px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    font-size: 1.2em; /* Dimensione del font */
+    transition: background-color 0.3s; /* Transizione per il colore di sfondo */
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Stile per il pulsante al passaggio del mouse */
+.add-button:hover {
+    background-color: #09cf44; /* Colore blu scuro al passaggio del mouse */
+    width: 180px;
+}
+
+/* Stile per il pulsante al focus */
+.add-button:focus {
+    outline: none; /* Rimuovi il contorno di default */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Ombra blu chiara al focus */
+   
+}
+
+
+/* Stile per il pulsante di invio */
+.menu-button {
+    background-color: black; /* Colore blu per il pulsante */
+    color: white; /* Colore del testo bianco */
+    border: none; /* Nessun bordo */
+    padding: 10px 20px; /* Spaziatura interna */
+    border-radius: 5px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    font-size: 1.2em; /* Dimensione del font */
+    transition: background-color 0.3s; /* Transizione per il colore di sfondo */
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Stile per il pulsante al passaggio del mouse */
+.menu-button:hover {
+    background-color: red; /* Colore blu scuro al passaggio del mouse */
+    width: 180px;
+}
+
+/* Stile per il pulsante al focus */
+.menu-button:focus {
+    outline: none; /* Rimuovi il contorno di default */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Ombra blu chiara al focus */
+   
+}
+

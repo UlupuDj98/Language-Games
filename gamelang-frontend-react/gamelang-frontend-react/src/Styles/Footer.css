@@ -1,0 +1,27 @@
+.footer {
+    background-color: red;
+    height: 80px;
+    position: fixed; /* Fissa il footer in basso */
+    bottom: 0; /* Posiziona il footer in basso */
+    left: 0; /* Allinea il footer a sinistra */
+    text-align: center; /* Centra il testo orizzontalmente */
+    width: 100%; /* Imposta la larghezza al 100% per coprire l'intera larghezza */
+    display: flex; /* Usa Flexbox per centrare verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.footer-text{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white !important; /* Forza il colore del testo */
+}
+
+.footer-text:hover{
+    font-size: 2em;
+}
+
+.footer:hover{
+    background-color: blue;
+}
